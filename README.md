@@ -44,67 +44,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Wiz](https://www.wiz.io/)**
-
-  **Cloud security platform** with a unified security graph correlating cloud infrastructure, workloads, identities, and code. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: enterprises wanting agentless cloud discovery with risk correlation across the full stack—**trade-off**: premium pricing and enterprise-only positioning.
-
-
-
-- **[CrowdStrike Falcon Cloud Security](https://www.crowdstrike.com/)**
-
-  **CNAPP integrated with Falcon platform** covering CSPM, CWPP, CIEM, and ASPM. **Pricing**: Quote-only. **Free tier**: None. **Best for**: CrowdStrike customers wanting cloud security unified with endpoint and identity protection.
-
-
-
-- **[Palo Alto Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)**
-
-  **Comprehensive CNAPP** with code security, CSPM, CWPP, and CIEM. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting broad coverage from code to runtime within the Palo Alto ecosystem.
-
-
-
-- **[Orca Security](https://orca.security/)**
-
-  **Agentless CNAPP** with SideScanning technology for cloud workload and data visibility. **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams wanting agentless deployment with fast time-to-value.
-
-
-
-- **[Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/products/defender-for-cloud)**
-
-  **Native Azure CNAPP** with CSPM, CWPP, and DevSecOps capabilities. **Pricing**: Included with Azure; paid plans for advanced features. **Free tier**: Limited. **Best for**: Azure-centric organizations wanting native cloud security without third-party agents.
-
-
-
-- **[Sysdig Secure](https://sysdig.com/)**
-
-  **CNAPP with runtime insight** built on Falco (which Sysdig created). **Pricing**: Quote-only. **Free tier**: Trial available. **Best for**: teams wanting runtime security with Falco lineage and container-focused protection.
-
-
-
-- **[Aqua Security](https://www.aquasec.com/)**
-
-  **Cloud native security** with container scanning, runtime protection, and CSPM. **Pricing**: Quote-only. **Free tier**: Limited. **Best for**: teams prioritizing container and Kubernetes security—**note**: Aqua maintains Trivy, the open-source scanner.
-
-
-
-- **[Lacework](https://www.lacework.com/)** (Fortinet)
-
-  **Cloud security platform** with behavioral anomaly detection and CNAPP capabilities. **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting behavioral detection alongside posture management.
-
-
-
-- **[Tenable Cloud Security](https://www.tenable.com/)**
-
-  **CNAPP with identity-first risk assessment** and CIEM depth. **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams prioritizing identity entitlements and permission risk analysis.
-
-
-
-- **[SentinelOne Singularity Cloud](https://www.sentinelone.com/)**
-
-  **AI-native CNAPP** with workload protection and cloud posture. **Pricing**: Quote-only. **Free tier**: None. **Best for**: SentinelOne customers wanting unified cloud and endpoint security.
-
-
+| Platform | Valuation / Company Size | Pricing (Starting Tier) | Free Tier / Trial Limits | Key Capabilities & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Defender for Cloud](https://azure.microsoft.com/en-us/products/defender-for-cloud)** | ~$3.13T Market Cap ($245B+ revenue) | **$0.0066/server/hr** (~$4.91/server/mo for Plan 1) or **$0.0196/server/hr** (~$14.60/server/mo for Plan 2) | **Free tier available forever** (Foundational CSPM included with Azure: secure score, continuous posture assessments & basic recommendations at no cost); **30-day free trial** per plan for paid Defender for Servers/Containers. | Native Azure CNAPP with CSPM, CWPP, and DevSecOps capabilities. Best for Azure-centric and multi-cloud environments wanting native cloud security. |
+| **[Palo Alto Prisma Cloud](https://www.paloaltonetworks.com/prisma/cloud)** | ~$119.4B Market Cap ($8.0B+ revenue) | **~$18,000/year** base CSPM (~2 credits/VM); **~$45,000/year** full CNAPP suite (~5 credits/VM) via AWS Marketplace | **No perpetual free tier**; **15 to 30-day free trial** or structured PoC via AWS Marketplace / direct sales. Underlying cloud compute costs apply during trial. | Comprehensive CNAPP covering code security, CSPM, CWPP, and CIEM with credit-based flexible licensing. |
+| **[CrowdStrike Falcon Cloud Security](https://www.crowdstrike.com/)** | ~$76.6B Market Cap ($3.9B+ revenue) | **$0.023/host-hour** (EC2/Workspaces runtime), **$0.054/worker node-hour** (K8s containers), **$0.01/Fargate hour** on AWS Marketplace PAYG | **No perpetual free tier**; **15-day free trial** (covers full Falcon Cloud Security platform evaluation; no credit card required, extensions upon request). | CNAPP deeply integrated with Falcon platform, uniting runtime protection, CWPP, CSPM, and CIEM with endpoint security. |
+| **[Lacework](https://www.lacework.com/)** (Fortinet) | ~$72.4B Market Cap ($5.96B Fortinet revenue; acquired for $152.3M) | **~$22,000 to $26,000/year** starter bundles on AWS Marketplace (unit packages based on ~200 cloud asset blocks) | **No perpetual free tier**; **No self-service free trial** (Evaluation access strictly via guided sales engineer Proof of Concept / PoC evaluation license). | Behavioral anomaly detection, automated baseline modeling, and CNAPP capabilities under Fortinet FortiCNAPP suite. |
+| **[Wiz](https://www.wiz.io/)** | ~$12B - $32B Valuation ($500M+ ARR) | **$24,000/year** (Wiz Essential tier, min. block of 100 workloads / ~$240/workload/yr) on AWS Marketplace | **No perpetual free tier**; **14-day free trial** (includes initial agentless risk assessment scan and guided PoC). | Unified security graph correlating cloud infrastructure, workloads, identities, and code. Category leader for full-stack agentless posture and risk correlation. |
+| **[SentinelOne Singularity Cloud](https://www.sentinelone.com/)** | ~$7.1B Market Cap ($800M+ revenue) | **$36/VM or node/month** (~$432/node/yr) for Cloud Workload Security; Endpoint tiers start from **$60/agent/yr** (Core) | **No perpetual free tier**; **14-day free trial** available via AWS Marketplace / direct proof-of-concept evaluation. | AI-native CNAPP and CWPP offering high-speed kernel-level behavioral prevention, detection, and autonomous remediation. |
+| **[Tenable Cloud Security](https://www.tenable.com/)** | ~$4.7B Market Cap ($850M+ revenue) | **~$15,000 to $18,000/year** enterprise starting baseline for cloud resource exposure modules (metered per billable cloud resource) | **No perpetual free tier**; **No self-serve free trial** (requires vendor sales engagement and guided enterprise PoC). | CNAPP with identity-first risk assessment and CIEM depth; maps entitlement graphs and effective permissions across multi-cloud. |
+| **[Sysdig Secure](https://sysdig.com/)** | ~$2.5B Valuation ($150M+ ARR) | **$0.13/host-hour** metered rate on AWS Marketplace (or ~$1,500/host/year baseline enterprise commitment packages) | **No perpetual free tier**; **30-day free trial** available on AWS Marketplace and direct SaaS (full CNAPP features enabled; cloud compute costs apply). | CNAPP with runtime insight built on Falco lineage; container-focused detection, drift control, and posture management. |
+| **[Orca Security](https://orca.security/)** | ~$1.8B Valuation ($64M+ ARR) | **$7,000/month** (~$84,000/year) entry starter packs on AWS Marketplace covering baseline concurrent cloud workloads | **No perpetual free tier**; **30-day free trial** / complimentary cloud risk assessment available via AWS Marketplace. | Agentless CNAPP with patented SideScanning technology for cloud workload, container, and sensitive data discovery. |
+| **[Aqua Security](https://www.aquasec.com/)** | ~$1.0B+ Valuation ($90M+ ARR) | **~$15,000 to $20,000/year** starting enterprise entry tier (metered by workload units, e.g. VMs/nodes/repos) via AWS Marketplace | **No perpetual free tier** (Open-source Trivy scanner is free forever); **14 to 30-day free trial** / proof-of-concept evaluation for the Aqua Enterprise CNAPP platform. | Cloud-native application protection covering container image scanning, supply chain pipeline security, K8s runtime, and CSPM. |
 
 ## Open-Source GitHub Projects
 
