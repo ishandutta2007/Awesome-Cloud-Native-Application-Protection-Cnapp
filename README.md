@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Application-Protection-Cnapp/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Native-Application-Protection-Cnapp?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Application-Protection-Cnapp/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Native-Application-Protection-Cnapp?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Application-Protection-Cnapp/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Native-Application-Protection-Cnapp?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Native-Application-Protection-Cnapp/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -71,7 +71,7 @@ From a structural standpoint, the CNAPP market is **moderately fragmented yet ag
 
 ## 🚀 Open-Source GitHub Projects
 
-*Sorted in descending order by GitHub Stars ⭐. Each star badge links directly to the project's stargazers.*
+*Sorted in descending order by GitHub_Stars ⭐. Each Stars_Badge links directly to the project's stargazers.*
 
 1. **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
    **Comprehensive All-in-One Scanner** (Apache-2.0) — The most widely adopted multi-purpose scanner for containers, Kubernetes, Infrastructure as Code (IaC), Git repositories, and Software Bill of Materials (SBOM). Features vulnerability scanning (OS & language packages), misconfiguration checks, and automated CI/CD shift-left workflows.
@@ -181,7 +181,7 @@ Contributions are welcome! Please follow these simple steps:
 1. 🍴 Fork this repository.
 2. 🌿 Create a descriptive branch: `git checkout -b add-awesome-tool`.
 3. 📝 Add or update entries in `README.md` maintaining alphabetical or star-ranked consistency.
-4. 🔗 Include project name, official URL, license, GitHub star badge, and an accurate capability summary.
+4. 🔗 Include project name, official URL, license, GitHub Stars_Badge, and an accurate capability summary.
 5. 🚀 Submit a Pull Request with a clear description of your changes.
 
 ---
